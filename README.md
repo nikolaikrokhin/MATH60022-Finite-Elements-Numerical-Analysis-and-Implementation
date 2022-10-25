@@ -1,2 +1,53 @@
 # MATH60022-Finite-Elements-Numerical-Analysis-and-Implementation
 MATH60022 - Finite Elements: Numerical Analysis and Implementation 2021-2022 at Imperial College London
+- 1. Numerical quadrature
+  - 1.1. Exact and incomplete quadrature
+  - 1.2. Examples in one dimension
+  - 1.3. Reference elements
+  - 1.4. Python implementations of reference elements
+  - 1.5. Quadrature rules on reference elements
+  - 1.6. Legendre-Gauß quadrature in one dimension
+  - 1.7. Extending Legendre-Gauß quadrature to two dimensions
+  - 1.8. Implementing quadrature rules in Python
+- 2. Constructing finite elements
+  - 2.1. A worked example
+  - 2.2. Types of node
+  - 2.3. The Lagrange element nodes
+  - 2.4. Solving for basis functions
+  - 2.5. Implementing finite elements in Python
+  - 2.6. Implementing the Lagrange Elements
+  - 2.7. Tabulating basis functions
+  - 2.8. Gradients of basis functions
+  - 2.9. Interpolating functions to the finite element nodes
+- 3. Meshes
+  - 3.1. Mesh entities
+  - 3.2. Reference cell entities
+  - 3.3. Adjacency
+  - 3.4. Mesh geometry
+  - 3.5. A mesh implementation in Python
+- 4. Function spaces: associating data with meshes
+  - 4.1. Local numbering and continuity
+  - 4.2. Implementing local numbering
+  - 4.3. Global numbering
+  - 4.4. The cell-node map
+  - 4.5. Implementing function spaces in Python
+- 5. Functions in finite element spaces
+  - 5.1. A python implementation of functions in finite element spaces
+  - 5.2. Interpolating values into finite element spaces
+  - 5.3. Integration
+- 6. Assembling and solving finite element problems
+  - 6.1. Assembling the right hand side
+  - 6.2. Assembling the left hand side matrix
+  - 6.3. The method of manufactured solutions 
+  - 6.4. Errors and convergence
+  - 6.5. Implementing finite element problems
+- 7. Dirichlet boundary conditions
+  - 7.1. An algorithm for homogeneous Dirichlet conditions
+  - 7.2. Implementing boundary conditions
+  - 7.3. Inhomogeneous Dirichlet conditions
+- 8. Nonlinear problems
+  - 8.1. A model problem
+  - 8.2. Residual form
+  - 8.3. Linearisation and Gâteaux Derivatives
+  - 8.4. A Taylor expansion and Newton’s method
+  - 8.5. Implementing a nonlinear problem
